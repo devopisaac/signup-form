@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url("src/Norse-Bold.otf");
+  }
+
+
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#col-1 {
+    flex: 35%;
+    background-position: center;
+    background-image: url("images/background.jpg");
+}
+
+#col-2 {
+    font-family: 'Roboto', sans-serif;
+    flex: 65%;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #fff;
+    margin-top: 250px;
+    height: 150px;
+    width:auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.odin-name {
+    font-family: Norse-Bold;
+    font-size: 90px;
+    margin-left: 10px;
+}
+
+#img-logo {
+    height: 120px;
+}
+
+.intro-1 {
+    font-size: 24px;
+    padding: 0 50px;
+    font-weight: 600;
+    padding-top: 200px;
+}
+
+.intro-2 {
+    font-size: 24px;
+    padding: 25px 50px;
+    font-weight: 600;
+}
+
+.intro-container {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.registration-form {
+    padding: 25px 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+label {
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.registration-form > div {
+    display: inline-block;
+}
